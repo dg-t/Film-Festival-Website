@@ -1,0 +1,173 @@
+/* Font changes */
+
+@font-face {
+  font-family: "seasideresortnfregular";
+  src: url("../fonts/seasrn__-webfont.woff2") format("woff2"),
+    url("../fonts/seasrn__-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SeaSide {
+  font-family: "seasideresortnfregular";
+}
+
+h2 {
+  font-family: "Kalam", cursive;
+  font-size: 36px;
+}
+
+h3,
+h4 {
+  font-family: "Kalam", cursive;
+}
+
+p {
+  font-family: "Kalam", cursive;
+  font-size: 17px;
+}
+
+a {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+/* bg colors */
+
+body {
+  background-color: #fff8dc;
+  overflow-x: hidden;
+}
+
+.GrayBG {
+  background-color: gray;
+}
+
+.backgroundGradient {
+  background: linear-gradient(to bottom, white, rgb(210, 180, 140));
+  color: white;
+}
+
+.NewsCH {
+  background-color: #d2b48c;
+}
+
+.NewsCB {
+  background-color: #dfcaae;
+}
+
+/* Text changes */
+
+.FSize {
+  font-size: 46px;
+}
+
+.center {
+  text-align: center;
+}
+
+.EqualW {
+  width: 100px;
+}
+
+.FWidth {
+  width: 400px;
+}
+
+a.ColorB {
+  color: white;
+  text-decoration: underline;
+}
+
+mark {
+  background: linear-gradient(to bottom, white, rgb(210, 180, 140));
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+
+.filter-option-inner-inner {
+  color: black;
+}
+
+.imgSize {
+  height: 170px;
+  width: 70%;
+}
+
+/* Effects */
+
+mark:hover {
+  opacity: 0.8;
+}
+
+.ColorB:hover {
+  opacity: 0.5;
+}
+
+.NewsCH:hover {
+  opacity: 0.8;
+}
+
+.card.ZoomIt:hover {
+  transform: scale(1.02);
+}
+
+.carousel:hover {
+  opacity: 0.9;
+}
+
+/* Container holding the image and the text */
+.Imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Cards */
+.card-deck {
+  margin: auto;
+}
+
+/* Navigation */
+
+.navbar:hover {
+  opacity: 0.8;
+}
+.nav-pills .nav-link.active {
+  background-color: #d2b48c;
+  color: black;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+nav-link:hover {
+  opacity: 0.8;
+}
+
+.anchor {
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+.custom-control-label {
+  display: inline;
+}
+
+/* Media query */
+@media screen and (max-width: 990px) {
+  .formResp {
+    display: block;
+  }
+}
